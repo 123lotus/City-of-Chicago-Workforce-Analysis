@@ -1,0 +1,168 @@
+(base) Joses-MBP:desktop josefiallos$ python chicago.py
+   Unnamed: 0                    Name      ...      exempt status        salary
+0           1          RHEE,  JAMIE L      ...             Exempt  $275,004.00 
+1           2       JOHNSON,  EDDIE T      ...             Exempt  $260,004.00 
+2           3          EMANUEL,  RAHM      ...             Exempt  $216,210.00 
+3           4     FORD II,  RICHARD C      ...             Exempt  $202,728.00 
+4           5  NANCE HOLT,  ANNETTE M      ...             Exempt  $197,736.00 
+
+[5 rows x 7 columns]
+<class 'pandas.core.frame.DataFrame'>
+(33692, 7)
+Index(['Unnamed: 0', 'Name', 'title', 'Department', 'classification',
+       'exempt status', 'salary'],
+      dtype='object')
+Unnamed: 0         int64
+Name              object
+title             object
+Department        object
+classification    object
+exempt status     object
+salary            object
+dtype: object
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 33692 entries, 0 to 33691
+Data columns (total 7 columns):
+Unnamed: 0        33692 non-null int64
+Name              33692 non-null object
+title             33692 non-null object
+Department        33692 non-null object
+classification    33692 non-null object
+exempt status     33692 non-null object
+salary            33692 non-null object
+dtypes: int64(1), object(6)
+memory usage: 1.8+ MB
+None
+0          AVIATION
+1            POLICE
+2    MAYOR'S OFFICE
+3              FIRE
+4              FIRE
+Name: Department, dtype: object
+33687    FLEET & FACILITY MANAGEMENT
+33688                       AVIATION
+33689                  STREETS & SAN
+33690                  STREETS & SAN
+33691    FLEET & FACILITY MANAGEMENT
+Name: Department, dtype: object
+                            title      ...             salary
+0        COMMISSIONER OF AVIATION      ...       $275,004.00 
+1        SUPERINTENDENT OF POLICE      ...       $260,004.00 
+2                           MAYOR      ...       $216,210.00 
+3               FIRE COMMISSIONER      ...       $202,728.00 
+4  FIRST DEPUTY FIRE COMMISSIONER      ...       $197,736.00 
+
+[5 rows x 5 columns]
+                             title      ...             salary
+33687       MACHINIST (AUTOMOTIVE)      ...       $100,630.40 
+33688  AIRPORT MAINTENANCE FOREMAN      ...        $79,227.20 
+33689           MOTOR TRUCK DRIVER      ...        $75,816.00 
+33690           SANITATION LABORER      ...        $78,540.80 
+33691          FLEET SERVICES ASST      ...        $51,563.20 
+
+[5 rows x 5 columns]
+   Unnamed: 0                    Name      ...      exempt status        salary
+0           1          RHEE,  JAMIE L      ...             Exempt  $275,004.00 
+1           2       JOHNSON,  EDDIE T      ...             Exempt  $260,004.00 
+2           3          EMANUEL,  RAHM      ...             Exempt  $216,210.00 
+3           4     FORD II,  RICHARD C      ...             Exempt  $202,728.00 
+4           5  NANCE HOLT,  ANNETTE M      ...             Exempt  $197,736.00 
+
+[5 rows x 7 columns]
+Unnamed: 0                               1
+Name                        RHEE,  JAMIE L
+title             COMMISSIONER OF AVIATION
+Department                        AVIATION
+classification                           F
+exempt status                       Exempt
+salary                        $275,004.00 
+Name: 0, dtype: object
+Unnamed: 0                      100
+Name              LOTT,  CORNELIA C
+title                     COMMANDER
+Department                   POLICE
+classification                    F
+exempt status                Exempt
+salary                 $162,684.00 
+Name: 99, dtype: object
+Unnamed: 0                              33692
+Name                        ZUNIGA JR,  JAMES
+title                     FLEET SERVICES ASST
+Department        FLEET & FACILITY MANAGEMENT
+classification                              F
+exempt status                      Non-Exempt
+salary                            $51,563.20 
+Name: 33691, dtype: object
+       Unnamed: 0               Name     ...      exempt status       salary
+33691       33692  ZUNIGA JR,  JAMES     ...         Non-Exempt  $51,563.20 
+
+[1 rows x 7 columns]
+<class 'pandas.core.series.Series'>
+<class 'pandas.core.frame.DataFrame'>
+     Unnamed: 0               Name      ...      exempt status        salary
+0             1     RHEE,  JAMIE L      ...             Exempt  $275,004.00 
+99          100  LOTT,  CORNELIA C      ...             Exempt  $162,684.00 
+999        1000      SMITH,  DAVID      ...             Exempt  $124,116.00 
+
+[3 rows x 7 columns]
+Unnamed: 0                               2
+Name                     JOHNSON,  EDDIE T
+title             SUPERINTENDENT OF POLICE
+Department                          POLICE
+classification                           F
+exempt status                       Exempt
+salary                        $260,004.00 
+Name: 1, dtype: object
+Unnamed: 0                      100
+Name              LOTT,  CORNELIA C
+title                     COMMANDER
+Department                   POLICE
+classification                    F
+exempt status                Exempt
+salary                 $162,684.00 
+Name: 99, dtype: object
+       Department        salary
+0        AVIATION  $275,004.00 
+1          POLICE  $260,004.00 
+2  MAYOR'S OFFICE  $216,210.00 
+3            FIRE  $202,728.00 
+4            FIRE  $197,736.00 
+Department
+ADMIN HEARNG                      36
+ANIMAL CONTRL                     78
+AVIATION                        1670
+BOARD OF ELECTION                108
+BOARD OF ETHICS                    8
+BUDGET & MGMT                     43
+BUILDINGS                        269
+BUSINESS AFFAIRS                 171
+CITY CLERK                        94
+CITY COUNCIL                     382
+COPA                             124
+CULTURAL AFFAIRS                  75
+DISABILITIES                      27
+DoIT                              99
+FAMILY & SUPPORT                 632
+FINANCE                          575
+FIRE                            4633
+FLEET & FACILITY MANAGEMENT      971
+HEALTH                           474
+HOUSING                           59
+HUMAN RELATIONS                   18
+HUMAN RESOURCES                   80
+INSPECTOR GEN                     83
+LAW                              394
+LICENSE APPL COMM                  1
+MAYOR'S OFFICE                    76
+OEMC                            1950
+PLANNING AND DEVELOPMENT         154
+POLICE                         14083
+POLICE BOARD                       2
+PROCUREMENT                       87
+PUBLIC LIBRARY                   960
+STREETS & SAN                   2206
+TRANSPORTN                      1146
+TREASURER                         24
+WATER MGMNT                     1900
+dtype: int64
+(base) Joses-MBP:desktop josefiallos$ 
